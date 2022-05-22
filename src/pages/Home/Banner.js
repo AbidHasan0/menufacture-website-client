@@ -3,7 +3,7 @@ import Car from '../../Asserts/image/Car.jpg'
 
 const Banner = () => {
    return (
-      <div class="hero min-h-screen bg-red-200 px-12">
+      <div class="hero min-h-screen bg-red-200">
          <div class="hero-content flex-col lg:flex-row-reverse">
             <img src={Car} class="w-80 h-400" />
             <div>
