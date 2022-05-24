@@ -1,0 +1,56 @@
+[
+   {
+      "_id": "628b168dd49bc0be90ca7876",
+      "picture": "https://i.ibb.co/HGgyT9M/products1.jpg",
+      "minimumQuantity": 40,
+      "name": "Tyre",
+      "description": "The materials of modern pneumatic tires are synthetic rubber, natural rubber, fabric and wire along with carbon black and other chemical compounds",
+      "availableQuantity": 1500,
+      "price": 200
+   },
+   {
+      "_id": "628b168db92c36fd3a51063e",
+      "picture": "https://i.ibb.co/zbm2WfP/products2.jpg",
+      "minimumQuantity": 10,
+      "name": "Motor",
+      "description": "The engine consists of a fixed cylinder and a moving piston. The expanding combustion gases push the piston, which in turn rotates the crankshaft.",
+      "availableQuantity": 1000,
+      "price": 500
+   },
+   {
+      "_id": "628b168dbcf9a11890cd31e2",
+      "picture": "https://i.ibb.co/S5xF8Vd/products3.jpg",
+      "minimumQuantity": 300,
+      "name": "Door",
+      "description": "A car door is a type of door, typically hinged, but sometimes attached by other mechanisms such as tracks, in front of an opening which is used for entering and exiting a vehicle.",
+      "availableQuantity": 6000,
+      "price": 100
+   },
+   {
+      "_id": "628b168d3d73c87acfd21ebb",
+      "picture": "https://i.ibb.co/rpb56hj/products4.jpg",
+      "minimumQuantity": 20,
+      "name": "Piston",
+      "description": "The piston is an essential part of the internal combustion engine which is key in converting the fuel which you use to fill up your car into energy to drive the car forward.",
+      "availableQuantity": 2000,
+      "price": 80
+   },
+   {
+      "_id": "628b168df34dc2660c428b00",
+      "picture": "https://i.ibb.co/x2dH938/products5.jpg",
+      "minimumQuantity": 200,
+      "name": "Handle",
+      "description": "A door handle is a small round object or a lever that is attached to a door and is used for opening and closing it. I turned the door handle and found the door was open.",
+      "availableQuantity": 30000,
+      "price": 90
+   },
+   {
+      "_id": "628b168df34dc2660c428b00",
+      "picture": "https://i.ibb.co/b2qpw0w/products6.jpg",
+      "minimumQuantity": 100,
+      "name": "Pedal",
+      "description": "The pedals. There are 3 pedals on the floor of the driver's side of your car, which you'll use to control the power and speed of the car: the accelerator, the foot brake and the clutch. Your car won't go anywhere without them, so get nice and friendly with your pedals.",
+      "availableQuantity": 5000,
+      "price": 50
+   }
+]
