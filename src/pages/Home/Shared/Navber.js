@@ -17,6 +17,9 @@ const Navber = () => {
       <li><Link to="/purchase">Purchase</Link></li>
       <li><Link to="/review">Review</Link></li>
       <li><Link to="/blogs">Blogs</Link></li>
+      {
+         user && <li><Link to="/dashboard">DashBoard</Link></li>
+      }
       <li>{user ? <button class="btn btn-active btn-ghost" onClick={logout}>Signout</button> : <Link to="/login">Login</Link>}</li>
    </>
    return (

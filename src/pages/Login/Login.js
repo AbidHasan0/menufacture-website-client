@@ -8,6 +8,7 @@ import { Link, useLocation, useNavigate } from 'react-router-dom';
 const Login = () => {
    const [signInWithGoogle, gUser, gLoading, gError] = useSignInWithGoogle(auth);
    const { register, formState: { errors }, handleSubmit } = useForm();
+
    const [
       signInWithEmailAndPassword,
       user,
@@ -19,7 +20,7 @@ const Login = () => {
 
    const navigate = useNavigate();
    const location = useLocation();
-   let from = location.state?.from?.pathname || "/";
+   let from = location.state?.from?.pathname || "/home";
 
    if (loading || gLoading) {
       return <Loading></Loading>
@@ -35,6 +36,7 @@ const Login = () => {
       signInWithEmailAndPassword(data.email, data.password);
       navigate('/home')
    }
+
 
    return (
       <div className='flex h-screen justify-center items-center'>
