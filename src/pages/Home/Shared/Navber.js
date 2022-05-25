@@ -30,7 +30,7 @@ const Navber = () => {
                   {menuItem}
                </ul>
             </div>
-            <a class="btn btn-ghost normal-case text-xl">Car MenuFactory</a>
+            <Link to="/home" className="btn normal-case text-primary font-serif font-bold text-xl ">Car Manufactory</Link>
          </div>
          <div class="navbar-center hidden lg:flex">
             <ul class="menu menu-horizontal p-0">

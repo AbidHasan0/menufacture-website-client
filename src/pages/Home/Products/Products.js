@@ -1,10 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import Purchase from '../../Purchase/Purchase';
 import Product from './Product';
 
 const Products = () => {
    const [products, setProducts] = useState([]);
-   const [service, setService] = useState(null);
    useEffect(() => {
 
       fetch('http://localhost:5000/product')
@@ -23,7 +21,7 @@ const Products = () => {
                products.map(product => <Product
                   key={product._id}
                   product={product}
-                  setService={setService}
+               // setService={setService}
 
                >
                </Product>)
@@ -31,7 +29,7 @@ const Products = () => {
 
          </div>
 
-         {service && <Purchase service={service} setService={setService}></Purchase>}
+
 
 
       </div>

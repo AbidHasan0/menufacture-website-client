@@ -1,10 +1,15 @@
 import React, { } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 
-const Product = ({ product, setService }) => {
+const Product = ({ product }) => {
+   const navigate = useNavigate()
+   const handlePurchase = (id) => {
+      navigate(`/productDetails/${id}`)
+   }
 
 
-   const { name, picture, minimumQuantity, availableQuantity, description, price } = product
+   const { _id, name, picture, minimumQuantity, availableQuantity, description, price } = product
 
    return (
       <div class="card lg-max-w-lg bg-base-100 shadow-xl">
@@ -17,9 +22,7 @@ const Product = ({ product, setService }) => {
             <p>Detail :{description}</p>
             <p>Minimum :{minimumQuantity}</p>
             <p>Available :{availableQuantity}</p>
-            <label for="purchase-modal"
-               onClick={() => setService(product)}
-               class="btn modal-button btn-primary">Button</label>
+            <button onClick={() => handlePurchase(_id)} className='btn btn-outline'>Purchase</button>
 
          </div>
       </div>
