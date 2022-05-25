@@ -35,6 +35,7 @@ const ProductDetails = () => {
 
 
       };
+
       fetch('http://localhost:5000/order', {
          method: 'POST',
          headers: {
