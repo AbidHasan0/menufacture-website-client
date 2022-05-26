@@ -13,6 +13,7 @@ import ProductDetails from './pages/ProductDetails/ProductDetails';
 import DashBoard from './pages/DashBoard/DashBoard';
 import MyOrders from './pages/DashBoard/MyOrders';
 import MyReview from './pages/DashBoard/MyReview';
+import MyProfile from './pages/DashBoard/MyProfile';
 
 
 
@@ -37,6 +38,7 @@ function App() {
         }>
           <Route index element={<MyOrders></MyOrders>}> </Route>
           <Route path='review' element={<MyReview></MyReview>}> </Route>
+          <Route path='profile' element={<MyProfile></MyProfile>}> </Route>
 
         </Route>
 
