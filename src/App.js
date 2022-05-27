@@ -17,6 +17,8 @@ import MyProfile from './pages/DashBoard/MyProfile';
 import AllOrders from './pages/DashBoard/AllOrders';
 import AllUser from './pages/DashBoard/AllUser';
 import Blogs from './pages/Home/Blogs';
+import NotFound from './pages/Home/Shared/NotFound';
+import MyPortfolio from './pages/Home/MyPortfolio';
 
 
 
@@ -49,12 +51,10 @@ function App() {
 
         </Route>
 
-        <Route path="blogs" element={
+        <Route path="blogs" element={<Blogs />} />
+        <Route path='myportfolio' element={<MyPortfolio></MyPortfolio>}></Route>
+        <Route path='*' element={<NotFound></NotFound>}></Route>
 
-          <Blogs />
-
-
-        } />
 
       </Routes>
       <ToastContainer />

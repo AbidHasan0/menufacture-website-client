@@ -16,7 +16,7 @@ const Navber = () => {
    const menuItem = <>
       <li><Link to="/home">Home</Link></li>
       {/* <li><Link to="/purchase">Purchase</Link></li> */}
-      <li><Link to="/reviews">Reviews</Link></li>
+      <li><Link to="/myportfolio">MyPortfolio</Link></li>
       <li><Link to="/blogs">Blogs</Link></li>
       {
          user && <li><Link to="/dashboard">DashBoard</Link></li>
