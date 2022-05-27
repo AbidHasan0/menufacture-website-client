@@ -15,6 +15,7 @@ const SignUp = () => {
       loading,
       error,
    ] = useCreateUserWithEmailAndPassword(auth);
+
    const [updateProfile, updating, updateError] = useUpdateProfile(auth);
    const [token] = useToken(user || gUser)
 

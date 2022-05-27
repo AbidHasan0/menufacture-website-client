@@ -5,24 +5,22 @@ const Footer = () => {
       <footer className="p-10 bg-neutral text-neutral-content">
          <div className='footer'>
             <div>
-               <span class="footer-title">Services</span>
-               <a class="link link-hover">Branding</a>
-               <a class="link link-hover">Design</a>
-               <a class="link link-hover">Marketing</a>
-               <a class="link link-hover">Advertisement</a>
+               <span class="footer-title">Products</span>
+               <a class="link link-hover">Tyre</a>
+               <a class="link link-hover">Piston</a>
+               <a class="link link-hover">Motor</a>
+               <a class="link link-hover">Car Door</a>
             </div>
             <div>
                <span class="footer-title">Company</span>
                <a class="link link-hover">About us</a>
                <a class="link link-hover">Contact</a>
                <a class="link link-hover">Jobs</a>
-               <a class="link link-hover">Press kit</a>
             </div>
             <div>
                <span class="footer-title">Legal</span>
                <a class="link link-hover">Terms of use</a>
                <a class="link link-hover">Privacy policy</a>
-               <a class="link link-hover">Cookie policy</a>
             </div>
          </div>
          <footer class="footer footer-center p-4 bg-base-300 text-base-content">

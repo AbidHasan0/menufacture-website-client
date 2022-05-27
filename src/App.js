@@ -5,7 +5,7 @@ import { Routes, Route, Link } from "react-router-dom";
 import Home from './pages/Home/Home';
 import Login from './pages/Login/Login';
 import SignUp from './pages/Login/SignUp';
-import Purchase from './pages/Purchase/Purchase';
+// import Purchase from './pages/Purchase/Purchase';
 import RequireAuth from './pages/Login/RequireAuth';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -14,6 +14,11 @@ import DashBoard from './pages/DashBoard/DashBoard';
 import MyOrders from './pages/DashBoard/MyOrders';
 import MyReview from './pages/DashBoard/MyReview';
 import MyProfile from './pages/DashBoard/MyProfile';
+import AllOrders from './pages/DashBoard/AllOrders';
+import AllUser from './pages/DashBoard/AllUser';
+import Blogs from './pages/Home/Blogs';
+
+
 
 
 
@@ -39,15 +44,17 @@ function App() {
           <Route index element={<MyOrders></MyOrders>}> </Route>
           <Route path='review' element={<MyReview></MyReview>}> </Route>
           <Route path='profile' element={<MyProfile></MyProfile>}> </Route>
+          <Route path='orders' element={<AllOrders></AllOrders>}> </Route>
+          <Route path='user' element={<AllUser></AllUser>}> </Route>
 
         </Route>
 
-        {/* <Route path="purchase" element={
-          <RequireAuth>
-            <Purchase />
-          </RequireAuth>
+        <Route path="blogs" element={
 
-        } /> */}
+          <Blogs />
+
+
+        } />
 
       </Routes>
       <ToastContainer />
