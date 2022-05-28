@@ -19,6 +19,7 @@ import AllUser from './pages/DashBoard/AllUser';
 import Blogs from './pages/Home/Blogs';
 import NotFound from './pages/Home/Shared/NotFound';
 import MyPortfolio from './pages/Home/MyPortfolio';
+import AddProduct from './pages/DashBoard/AddProduct';
 
 
 
@@ -49,6 +50,7 @@ function App() {
           <Route path='profile' element={<MyProfile></MyProfile>}> </Route>
           <Route path='orders' element={<AllOrders></AllOrders>}> </Route>
           <Route path='user' element={<AllUser></AllUser>}> </Route>
+          <Route path='addproduct' element={<AddProduct></AddProduct>}> </Route>
 
         </Route>
 
