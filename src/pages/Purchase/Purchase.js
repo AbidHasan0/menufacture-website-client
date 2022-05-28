@@ -20,7 +20,7 @@
 //          address: event.target.address.value,
 //       };
 
-//       fetch('http://localhost:5000/order', {
+//       fetch('https://immense-badlands-11889.herokuapp.com/order', {
 //          method: 'POST',
 //          headers: {
 //             'content-type': 'application/json'

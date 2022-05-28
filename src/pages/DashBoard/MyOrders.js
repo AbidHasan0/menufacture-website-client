@@ -8,7 +8,7 @@ const MyOrders = () => {
    const [user] = useAuthState(auth);
    useEffect(() => {
       if (user) {
-         fetch(`http://localhost:5000/order?buyer=${user.email}`, {
+         fetch(`https://immense-badlands-11889.herokuapp.com/order?buyer=${user.email}`, {
             method: 'GET',
             headers: {
                'authorization': `Bearer ${localStorage.getItem('accessToken')}`

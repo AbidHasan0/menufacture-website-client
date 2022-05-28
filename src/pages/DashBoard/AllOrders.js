@@ -6,7 +6,7 @@ import Loading from '../Home/Shared/Loading';
 import OrderRow from './OrderRow';
 
 const AllOrders = () => {
-   const { data: orders, isLoading } = useQuery('order', () => fetch('http://localhost:5000/order').then(res => res.json()));
+   const { data: orders, isLoading } = useQuery('order', () => fetch('https://immense-badlands-11889.herokuapp.com/order').then(res => res.json()));
 
    if (isLoading) {
       return <Loading></Loading>

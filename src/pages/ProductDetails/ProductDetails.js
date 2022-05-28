@@ -9,7 +9,7 @@ const ProductDetails = () => {
    const { id } = useParams();
    const [product, setProduct] = useState({});
    useEffect(() => {
-      const url = `http://localhost:5000/product/${id}`;
+      const url = `https://immense-badlands-11889.herokuapp.com/product/${id}`;
       fetch(url)
          .then(res => res.json())
          .then(data => {
@@ -36,7 +36,7 @@ const ProductDetails = () => {
 
       };
 
-      fetch('http://localhost:5000/order', {
+      fetch('https://immense-badlands-11889.herokuapp.com/order', {
          method: 'POST',
          headers: {
             'content-type': 'application/json'
